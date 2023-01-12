@@ -4,7 +4,6 @@ import 'package:task_manager/models/popup_item.dart';
 class PopUpItems {
   static const List<PopUpItem> itemFirst = [
     itemSortBy,
-    itemDelete,
   ];
 
   static const List<PopUpItem> itemSecond = [
@@ -19,11 +18,6 @@ class PopUpItems {
   static const itemSortByLeft = PopUpItem(
     'Sort By',
     Icons.arrow_left_outlined,
-  );
-
-  static const itemDelete = PopUpItem(
-    'Delete all',
-    Icons.delete,
   );
 
   static const itemHigh = PopUpItem(
